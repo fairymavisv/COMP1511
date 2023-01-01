@@ -31,7 +31,7 @@ labs 15% + Ass0 5% + Ass1 15% + Ass2 25% + Final 40%
 	```
 		cp -r COMP1511 COMP1511_backup
 	```
-    
+
 3.  Example C code:
     ```
     // Line 1-3 are for header
@@ -51,18 +51,19 @@ labs 15% + Ass0 5% + Ass1 15% + Ass2 25% + Final 40%
     - Between { and } are a set of progrm instructions
     - Return 0 is signifying a correct outcome of the  program
 
-4. Editing and compilation:
-	open the file to edit
-	```
-	code hey.c
-	```
-	compile it
-	```
-	dcc hey.c -o hey
-	```
-	-o tells compiler to write out a file called "hey" that we can then run
-	
-	run it
-	```
-	./hey
-	```
+    Editing and compilation:
+
+        open the file to edit
+        ```
+        code hey.c
+        ```
+        compile it
+        ```
+        dcc hey.c -o hey
+        ```
+            -o tells compiler to write out a file called "hey" that we can then run
+        
+        run it
+        ```
+        ./hey
+        ```
