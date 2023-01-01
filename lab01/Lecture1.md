@@ -32,24 +32,23 @@ labs 15% + Ass0 5% + Ass1 15% + Ass2 25% + Final 40%
 		cp -r COMP1511 COMP1511_backup
 	```
 3.  Example C code:
-```
-// Line 1-3 are for header
-// /* */ everthing between them will be comments
-// THe computer will ignore comments
+    ```
+    // Line 1-3 are for header
+    // /* */ everthing between them will be comments
+    // THe computer will ignore comments
 
-#inclue <stdio.h> // Line 5 is a special tag for compiler
+    #inclue <stdio.h> // Line 5 is a special tag for compiler
 
-int main(void){
-	printf("Hey!\n");
-	return 0;
-} // The "main" function
-```
-
-	- int is the output return type and stands for integer
-	- main is the name of the function
-	- (void) means no input
-	- Between { and } are a set of progrm instructions
-	- Return 0 is signifying a correct outcome of the  program
+    int main(void){
+        printf("Hey!\n");
+        return 0;
+    } // The "main" function
+    ```
+    - int is the output return type and stands for integer
+    - main is the name of the function
+    - (void) means no input
+    - Between { and } are a set of progrm instructions
+    - Return 0 is signifying a correct outcome of the  program
 
 4. Editing and compilation:
 	open the file to edit
