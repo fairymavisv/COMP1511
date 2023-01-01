@@ -51,19 +51,19 @@ labs 15% + Ass0 5% + Ass1 15% + Ass2 25% + Final 40%
     - Between { and } are a set of progrm instructions
     - Return 0 is signifying a correct outcome of the  program
 
-    Editing and compilation:
+4. Editing and compilation:
 
-        open the file to edit
-        ```
-        code hey.c
-        ```
-        compile it
-        ```
-        dcc hey.c -o hey
-        ```
-            -o tells compiler to write out a file called "hey" that we can then run
+    open the file to edit
+    ```
+    code hey.c
+    ```
+    compile it
+    ```
+    dcc hey.c -o hey
+    ```
+    -o tells compiler to write out a file called "hey" that we can then run
         
-        run it
-        ```
-        ./hey
-        ```
+    run it
+    ```
+    ./hey
+    ```
