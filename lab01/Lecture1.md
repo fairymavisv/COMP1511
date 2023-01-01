@@ -31,6 +31,7 @@ labs 15% + Ass0 5% + Ass1 15% + Ass2 25% + Final 40%
 	```
 		cp -r COMP1511 COMP1511_backup
 	```
+    
 3.  Example C code:
     ```
     // Line 1-3 are for header
