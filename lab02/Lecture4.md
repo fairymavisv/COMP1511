@@ -34,5 +34,28 @@
     ```
     variable_name.variable_name_member;
     ```
+
+5. Enumerations:
+
+    integer data types that you created with a limited range of value (enumerated constants)
+    ```
+    //define
+    enum weekdays {Mon, Tue, Wed, Thu, Fri, Sat, Sun}
+    //declare
+    enum weeksdays day;
+    //initialise
+    day = Sat;
+    ```
+
+    enum vs. #define
+
+    advantages of using enums:
+
+    enumerations follow scope rules -> you cannot have an enum state that is the same in two different types of enums
+
+    automatically assigned values, which makes the code easier to read
+
+    use enums when we want a variable to have a specific set of values
     
+
 
