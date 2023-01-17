@@ -23,6 +23,7 @@
 3. While vs For:
 
     while - dont know the number of iterations ahead of time
+    
     For - know the number of iterations ahead of time
 
 4. For Loop Structure:
