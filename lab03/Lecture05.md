@@ -21,6 +21,7 @@
     block of code surrounded by: indent 4 spaces
 
 3. While vs For:
+
     while - dont know the number of iterations ahead of time
     For - know the number of iterations ahead of time
 
