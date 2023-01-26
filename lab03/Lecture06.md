@@ -29,6 +29,7 @@
     Two pretty cool data structures: Arrays and Linked lists
     
     Array:
+
     '''
     //this arry holds 7 integers
     int array_name [Number of items] = {3, 2, 1, ...}
@@ -38,7 +39,9 @@
 
     '''
     int ice_cream_consum[7] = {0,1,2,3,4,5,6};
+
     int i = 0;
+
     while(i < 7) {
         printf("%d", ice_cream_consum[i]);
         i++;
@@ -57,9 +60,19 @@
     ''' 
 
 3. Helpful library functions:
+
     fgets(array[], length, stream)
+
     array[] = the array that the string will be stored into
+
     length = the number of character that will be read in
-    stream = this is where this string is coming from 
     
+    stream = this is where this string is coming from 
+
+4. Other interesting string functions:
+    - strlen() gives us the length of the string
+    - strcpy() copy the contents of one string to another
+    - strcat() attach one string to the end of another
+    - strcmp() compare two strings
+    - strchr() find the first or last occurance of a character
 
