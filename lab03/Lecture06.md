@@ -30,14 +30,16 @@
     
     Array:
 
-    '''
+    ```
     //this arry holds 7 integers
+
     int array_name [Number of items] = {3, 2, 1, ...}
-    '''
+    ```
+
 
     - You can't print a whole array and You can't scan a whole array
 
-    '''
+    ```
     int ice_cream_consum[7] = {0,1,2,3,4,5,6};
 
     int i = 0;
@@ -46,7 +48,7 @@
         printf("%d", ice_cream_consum[i]);
         i++;
     }
-    '''
+    ```
 
     Strings: a collection of characters that are joined together
         = an array of characters
@@ -54,10 +56,11 @@
     \0 is called a null terminating character
 
     two methods to declare and initialise a string
-    '''
+    
+    ```
     char word[] = "hello"
     char world[] = {'h','e','l','l','o',\0};
-    ''' 
+    ``` 
 
 3. Helpful library functions:
 
@@ -66,7 +69,7 @@
     array[] = the array that the string will be stored into
 
     length = the number of character that will be read in
-    
+
     stream = this is where this string is coming from 
 
 4. Other interesting string functions:
